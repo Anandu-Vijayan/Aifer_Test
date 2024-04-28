@@ -8,6 +8,7 @@ function App() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [dataCount, setDatCount] = useState(0)
 
+
   return (
     <>
       <DataContext.Provider value={{ currentQuestionIndex, setCurrentQuestionIndex, setDatCount, dataCount }}>

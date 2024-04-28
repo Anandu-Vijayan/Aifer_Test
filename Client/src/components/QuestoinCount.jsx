@@ -10,7 +10,7 @@ const QuestoinCount = () => {
     <section className='h-full border-2 rounded-xl p-7 fontManrope-medium'>
       <div className='flex justify-between'>
         <p>Question {currentQuestionIndex + 1}/{dataCount}</p>
-        <p>Need Help ?</p>
+        <p >Need Help ?</p>
       </div>
       <div className='pt-10 flex items-center flex-wrap gap-4'>
         {/* Map over the numbersArray to render div elements */}
