@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+   @font-face {
+    font-family: "manrope-regular";
+    src: local("manrope-regular"),
+     url("./assets/fonts/manrope-regular.otf") format("truetype");
+    /* font-weight: bold; */
+   }
+
+ 
+   @font-face {
+    font-family: "manrope-medium";
+    src: local("manrope-medium"),
+     url("./assets/fonts/manrope-medium.otf") format("truetype");
+    /* font-weight: bold; */
+   }
+
+   @font-face {
+    font-family: "manrope-bold";
+    src: local("manrope-bold"),
+     url("./assets/fonts/manrope-bold.otf") format("truetype");
+    /* font-weight: bold; */
+   }
+   
+  
+
+   .fontManrope-regular {
+    font-family: "manrope-regular" ;
+   }
+
+   .fontManrope-medium {
+    font-family: "manrope-medium" ;
+   }
+
+   .fontManrope-bold {
+    font-family: "manrope-bold" ;
+   }
