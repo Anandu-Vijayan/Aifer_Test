@@ -50,6 +50,7 @@ const Question = () => {
             handleCheckAnswer();
         }
     };
+// chenging the right and wrong answer for both cases //
 
     const handleCheckAnswer = () => {
         const correctAns = data[currentQuestionIndex].Answer;
