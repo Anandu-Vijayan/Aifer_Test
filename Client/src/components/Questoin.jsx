@@ -10,7 +10,7 @@ const Question = () => {
     const [explanationVisible, setExplanationVisible] = useState(false);
     const [correctAnswers, setCorrectAnswers] = useState(Array(data.length).fill('')); // Initialize array with empty strings
     const [attemptedCheck, setAttemptedCheck] = useState(false); // Track if check was attempted without selecting an option
-    const { currentQuestionIndex, setCurrentQuestionIndex, setDatCount, dataCount } = useContext(DataContext);
+    const {currentQuestionIndex, setCurrentQuestionIndex, setDatCount, dataCount } = useContext(DataContext);
 
     const numbersArray = Array.from({ length: dataCount }, (_, index) => index + 1);
 
@@ -37,7 +37,6 @@ const Question = () => {
         setCurrentQuestionIndex(prevIndex => prevIndex - 1);
         setExplanationVisible(false); // Hide explanation for the previous question
     };
-
     const handleInputChange = (optionIndex, e) => {
         const newSelectedValues = [...selectedValues];
         const selectedOption = data[currentQuestionIndex].option[optionIndex];
